@@ -26,4 +26,4 @@ function createMarkup(images) {
     .join("");
 }
 
-const simpleGallery = new SimpleLightbox(".gallery a", { ...lightBoxOpt });
+const simpleGallery = new SimpleLightbox(".gallery a", lightBoxOpt);
